@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "home": "홈",
+    "rankings": "채널 순위"
+  },
+  "calculator": {
+    "title": "YouTube 수익 계산기",
+    "description": "채널 URL을 입력하면 예상 수익을 계산해드립니다.",
+    "input": {
+      "placeholder": "YouTube 채널 URL을 입력하세요",
+      "search": "검색"
+    },
+    "error": {
+      "notFound": "해당 채널이 존재하지 않거나 검색 결과가 없습니다!"
+    },
+    "stats": {
+      "subscribers": "구독자",
+      "totalViews": "총 조회수",
+      "videoCount": "동영상 수",
+      "averageViews": "평균 조회수",
+      "normal": "일반 영상",
+      "shorts": "쇼츠",
+      "total": "전체"
+    },
+    "earnings": {
+      "total": "총 예상 수익",
+      "normal": "일반 영상 수익",
+      "shorts": "쇼츠 수익",
+      "monthly": "월 예상 수익",
+      "yearly": "연 예상 수익",
+      "period": "최근 한달 기준"
+    }
+  }
+} 

@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "home": "Home",
+    "rankings": "Channel Rankings"
+  },
+  "calculator": {
+    "title": "YouTube Earnings Calculator",
+    "description": "Enter your YouTube channel URL to calculate estimated earnings.",
+    "input": {
+      "placeholder": "Enter YouTube channel URL",
+      "search": "Calculate"
+    },
+    "error": {
+      "notFound": "Channel not found or no results available!"
+    },
+    "stats": {
+      "subscribers": "Subscribers",
+      "totalViews": "Total Views",
+      "videoCount": "Videos",
+      "averageViews": "Average Views",
+      "normal": "Regular",
+      "shorts": "Shorts",
+      "total": "Total"
+    },
+    "earnings": {
+      "total": "Total Estimated Earnings",
+      "normal": "Regular Video Earnings",
+      "shorts": "Shorts Earnings",
+      "monthly": "Monthly Estimate",
+      "yearly": "Yearly Estimate",
+      "period": "Last 30 Days"
+    }
+  }
+} 
