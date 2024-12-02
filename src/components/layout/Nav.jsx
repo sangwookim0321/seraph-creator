@@ -43,7 +43,7 @@ const Nav = () => {
           
           {/* 메뉴 영역 */}
           <div className="hidden md:flex items-center gap-4">
-            <a 
+            {/* <a 
               href="/"
               className="text-muted-foreground hover:text-foreground px-4 py-2 rounded-md transition-colors"
             >
@@ -54,7 +54,7 @@ const Nav = () => {
               className="text-muted-foreground hover:text-foreground px-4 py-2 rounded-md transition-colors"
             >
               {t('nav.rankings')}
-            </a>
+            </a> */}
           </div>
         </div>
         
@@ -72,7 +72,7 @@ const Nav = () => {
       {/* 모바일 메뉴 */}
       <div className="md:hidden border-t">
         <div className="container mx-auto px-4 py-2 flex items-center gap-2">
-          <a 
+          {/* <a 
             href="/"
             className="flex-1 text-center text-muted-foreground hover:text-foreground px-4 py-2 rounded-md transition-colors"
           >
@@ -83,7 +83,7 @@ const Nav = () => {
             className="flex-1 text-center text-muted-foreground hover:text-foreground px-4 py-2 rounded-md transition-colors"
           >
             {t('nav.rankings')}
-          </a>
+          </a> */}
         </div>
       </div>
     </nav>

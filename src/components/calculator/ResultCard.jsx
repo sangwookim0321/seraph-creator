@@ -11,7 +11,7 @@ const EarningsCard = ({ title, earnings, period, titleColor = "text-muted-foregr
   return (
     <div className="space-y-2 p-4 bg-primary/5 rounded-lg">
       <div className="flex items-center justify-between mb-2">
-        <h3 className={`text-lg font-medium ${titleColor}`}>{title}</h3>
+        <h3 className={`text-lg font-bold ${titleColor}`}>{title}</h3>
         {period && (
           <span className="text-xs text-muted-foreground">
             {t('calculator.earnings.period')}

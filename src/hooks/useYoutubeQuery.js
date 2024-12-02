@@ -19,14 +19,16 @@ export const useCalculateIncome = () => {
     },
     onSuccess: (response) => {
       if (!response.success) {
-        setError("해당 채널이 존재하지 않거나 검색 결과가 없습니다!")
+        setError(response.error || "해당 채널이 존재하지 않거나 검색 결과가 없습니다!")
         return
       }
+      console.log('성공', response)
       setLastCalculation(response.data)
       queryClient.setQueryData(['channelCalculation', response.data.channelId], response.data)
     },
-    onError: () => {
-      setError("해당 채널이 존재하지 않거나 검색 결과가 없습니다!")
+    onError: (error) => {
+      console.log('에러', error.response.data.error)
+      setError(error.response?.data?.error || "해당 채널이 존재하지 않거나 검색 결과가 없습니다!")
     }
   })
 }
